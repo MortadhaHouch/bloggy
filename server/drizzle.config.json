@@ -1,0 +1,9 @@
+{
+    "$schema": "./database/config/schema.ts",
+    "dialect":"postgresql",
+    "dbCredentials":{
+        "password":"root",
+        "user":"postgres",
+        "url":"postgresql://postgres:admin@localhost:5432/drizzle_starter"
+    }
+}

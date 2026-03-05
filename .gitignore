@@ -1,0 +1,65 @@
+# Server files & folders
+server/.vscode/
+server/.idea/
+server/*.iml
+server/node_modules
+server/*.env
+
+# Client files & folders
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+*.iml
+.env
+.env.local
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter
+client/build/
+client/android/local.properties
+client/android/gradle.properties
+client/android/.gradle/
+client/ios/Pods/
+client/ios/Podfile.lock
+client/ios/Flutter/Flutter-Release.xcconfig
+client/web/plugins_debug.js
+client/web/plugins_release.js
+client/pubspec.lock
+
+# Symbolication related
+client/app.*.symbols
+
+# Obfuscation related
+client/app.*.map.json
+
+# Android code obfuscation related
+client/app.*.mapping
+
+# iOS/macOS
+client/ios/**/*.mode1v3
+client/ios/**/*.mode2v3
+client/ios/**/*.moved-aside
+client/ios/**/*.pbxuser
+client/ios/**/*.perspectivev3
+client/ios/**/*.xcworkspace/xcuserdata
+client/ios/**/.generated/
+client/macos/Flutter/Flutter-Release.xcconfig
+client/macos/Flutter/ephemeral/
+
+# Coverage
+coverage/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
